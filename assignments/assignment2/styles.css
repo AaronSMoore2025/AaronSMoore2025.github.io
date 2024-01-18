@@ -1,3 +1,41 @@
 body{
-    background-color: darkslategray;
+    background-color: lightseagreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+h1{
+    background: burlywood;
+    border: 2px solid ivory;
+    border-radius: 20px;
+}
+
+#table, td{
+    background: burlywood;
+    padding: 30px;
+    border: 2px solid ivory;   
+    border-radius: 20px;
+}
+
+#content{
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+}
+
+#main a {
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: burlywood;
+    text-decoration: none;
+    color: black;
+    border: 2px solid ivory;
+    border-radius: 10px;
+}
+
+#main a:hover{
+    background: darkcyan;
 }
