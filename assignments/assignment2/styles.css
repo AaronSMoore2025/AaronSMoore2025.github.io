@@ -4,12 +4,15 @@ body{
     
 }
 
+/* header */
 h1{
     background: burlywood;
     border: 2px solid ivory;
+    padding: 30px;
     border-radius: 20px;
 }
 
+/* table */
 #table, td{
     background: burlywood;
     padding: 30px;
@@ -17,12 +20,14 @@ h1{
     border-radius: 20px;
 }
 
+/* Structure */
 #content{
     padding: 5px;
     width: 75%;
     margin: auto;
 }
 
+/* Style */
 #main a {
     margin: auto;
     width: 80%;
@@ -38,4 +43,10 @@ h1{
 
 #main a:hover{
     background: darkcyan;
+}
+
+.special {
+    background: burlywood;
+    padding: 5px;
+    border: 2px solid ivory;
 }
