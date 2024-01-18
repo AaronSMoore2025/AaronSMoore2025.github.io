@@ -3,6 +3,10 @@ body{
     background: gray;
 }
 
+#main-head{
+    background: gray;
+}
+
 #content{
     background: goldenrod;
     padding: 10px;
@@ -17,8 +21,5 @@ body{
     color: black;
 }
 
-#main-h1 a {
-    background: gray;
-    padding:30px;
-}
+
 

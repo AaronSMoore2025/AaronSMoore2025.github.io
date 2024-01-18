@@ -1,16 +1,20 @@
 body{
-    background-color: url(images/waves2.jpeg);
+    background: url(images/waves2.jpeg);
     font-family:Verdana, Geneva, Tahoma, sans-serif
     
 }
 
 /* header */
+
+h2,
 h1{
     background: burlywood;
     border: 2px solid ivory;
     padding: 30px;
     border-radius: 20px;
 }
+
+
 
 /* table */
 #table, td{
