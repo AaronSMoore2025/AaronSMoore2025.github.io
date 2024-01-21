@@ -3,7 +3,7 @@ body{
     background: lavenderblush;
 }
 
-
+@media only screen and (min-width: 600px){
 #main-header,
 #main-footer,
 #main-content{
@@ -20,9 +20,9 @@ body{
     text-decoration: none;
     color: black;
 }
+
 /* Topography */
 
-@media only screen and (min-width: 600px){
 .columns {
     display: flex;
 }
