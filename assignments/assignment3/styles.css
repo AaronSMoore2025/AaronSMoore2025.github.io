@@ -3,6 +3,7 @@ body {
     background: palegreen;
 }
 
+/* Main Navigation */
 #content {
     margin: auto;
     padding: 5px;
@@ -19,11 +20,9 @@ body {
     margin-bottom: 10px;
 }
 
-.one,
-.two,
-#main-nav ul{
-    padding-left: 0;
-    border: 1px solid black;
+#main-nav a {
+    text-decoration: none;
+    color: black;
 }
 
 #main-nav li {
@@ -31,33 +30,6 @@ body {
     background: lightgray;
     padding: 5px;
     border-bottom: 1px solid black;
-}
-
-#main-nav a {
-    text-decoration: none;
-    color: lightgray;
-}
-
-/* Topography */
-
-.columns {
-    display: flex;
-}
-
-.columns section {
-    padding-right: 100px;
-}
-.one{
-    padding: 15px;
-    padding-right:100px;
-    padding-top: 0px
-}
-.two {
-    padding: 15px;
-    padding-top: 0px;
-    flex: 1;
-    border: 1px solid black;
-    text-decoration: none;
 }
 
 #main-nav li{
@@ -70,3 +42,56 @@ body {
     border-bottom: 2px solid black;
 }
 
+/* Topography */
+@media only screen and (min-width: 600px){
+
+.one,
+.two,
+#main-nav ul{
+    padding-left: 0;
+    border: 1px solid black;
+}
+
+.four{
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.columns{
+    display: flex;
+}
+
+.columns section {
+    padding-right: 100px;
+}
+
+.one{
+    padding: 15px;
+    padding-right:100px;
+    padding-top: 0px
+}
+
+.two {
+    padding: 15px;
+    padding-top: 0px;
+    flex: 1;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.columns2{
+    display: flex;
+}
+
+.columns2 section {
+    padding: 15px;
+}
+
+.three{
+    border: 1px solid black;
+}
+
+}
