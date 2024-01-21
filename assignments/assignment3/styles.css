@@ -76,7 +76,6 @@ ul {
     flex: 1;
     border: 1px solid black;
     text-decoration: none;
-    flex-wrap: wrap;
 }
 
 .myImage{
@@ -84,12 +83,15 @@ ul {
 }
 
 .myHeading{
-    float:right;
+    float:left;
+    padding-left: 15px;
 }
 
 .myP {
-    float:right;
-}
+    float:left;
+    width: 75%;
+    padding-left: 15px;
+} 
 
 .columns2{
     display: flex;
