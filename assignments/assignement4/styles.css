@@ -163,17 +163,16 @@ li{
     position:relative;
 }
 
-.five{
-    color:white;
+
+#middleFooter-nav {
     display:flex;
-    flex:1
+}
+.five{
+    flex:1;
+    color:white;
+
 }
 
-.list{
-    border-top: solid 1px white;
-    color:white;
-    flex:1;
-}
 
 
 }
