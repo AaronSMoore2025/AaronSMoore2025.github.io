@@ -12,6 +12,10 @@ li{
 .li1 {
     border-top: solid 1px lightgray;
 }
+
+.header2 {
+    margin: 0px;
+}
 .footerUL a,
 .one a{
     color: Black;
@@ -88,6 +92,14 @@ li{
 
 #footer1-nav{
     background: lightgray;
+    padding:20px;
+    margin:none;
+}
+
+#middleFooter-nav {
+    background: maroon;
+    margin:none;
+    padding:none;
 }
 
 /* Topography */
@@ -150,4 +162,18 @@ li{
 .footer1-nav {
     position:relative;
 }
+
+.five{
+    color:white;
+    display:flex;
+    flex:1
+}
+
+.list{
+    border-top: solid 1px white;
+    color:white;
+    flex:1;
+}
+
+
 }
