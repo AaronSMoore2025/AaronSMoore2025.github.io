@@ -4,17 +4,28 @@ body{
 
 ul {
     list-style-type: none;
-
 }
 
 li{
+    padding: 10px;
+}
+.li1 {
     border-top: solid 1px lightgray;
 }
+.footerUL a,
 .one a{
     color: Black;
     text-decoration: none;
     font-size: x-large;
+}
 
+.two {
+    border-bottom: solid 1px lightgray;
+}
+
+.three {
+    border-bottom: solid 1px lightgray;
+    padding: 15px;
 }
 #img1 {
     padding-top:25px;
@@ -41,6 +52,18 @@ li{
     padding:7px;
 }
 
+.departmentH{
+    color: maroon;
+    font-weight:700;
+}
+
+.departmentH1 {
+    color: maroon;
+}
+
+.p1{
+
+}
 #main-content{
 
 }
@@ -55,25 +78,38 @@ li{
     font-size: small;
 }
 
+.h2 {
+    color: maroon;
+}
+
+.p{
+    font-size: x-large;
+}
+
+#footer1-nav{
+    background: lightgray;
+}
+
 /* Topography */
 @media only screen and (min-width: 600px){
+
+.columns{
+    display: flex;
+}
 
 .top-header{
     display: flex;
     position:absolute;
     right: 0;
 }
-.top-header li {
-    padding-left: 10px;
-
-}
 
 #main-header{
     position:relative;
 }
 
-.columns{
-    display: flex;
+.top-header li {
+    padding-left: 10px;
+
 }
 
 .one{
@@ -83,5 +119,35 @@ li{
 .two{
     flex: 75%;
     padding: 20px;
+    border-top: solid 1px lightgray;
+}
+
+.three{
+    display: flex;
+}
+
+.four {
+    display: flex;
+    position:absolute;
+    right:0;
+}
+
+.right {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.departmentH {
+    flex:auto;
+}
+
+.footerUL {
+    display: flex;
+    position:absolute;
+    right: 0;
+}
+
+.footer1-nav {
+    position:relative;
 }
 }
