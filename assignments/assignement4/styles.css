@@ -136,12 +136,7 @@ li{
 
 .three{
     display: flex;
-}
 
-.four {
-    display: flex;
-    position:absolute;
-    right:0;
 }
 
 .right {
@@ -163,14 +158,22 @@ li{
     position:relative;
 }
 
-
-#middleFooter-nav {
-    display:flex;
+.four{
+    flex: 75%;
 }
 .five{
+    flex: 25% ;
+}
+
+.six{
     flex:1;
     color:white;
 
+}
+
+.seven{
+    flex:1;
+    color:white;
 }
 
 
