@@ -35,6 +35,12 @@ li{
     padding-top:25px;
     padding-left:30px;
 }
+.image7 {
+    margin:auto;
+    padding:10px;
+}
+
+
 #main-header{
     padding:none;
     background: black;
@@ -65,13 +71,6 @@ li{
     color: maroon;
 }
 
-.p1{
-
-}
-#main-content{
-
-}
-
 .top-header {
     list-style-type: none;
     background: black;
@@ -80,6 +79,12 @@ li{
     padding-right: 20px;
     color: white;
     font-size: small;
+}
+
+.top-header a:hover{
+    color:white;
+    background:red;
+    
 }
 
 .h2 {
@@ -96,11 +101,107 @@ li{
     margin:none;
 }
 
+
+
 #middleFooter-nav {
     background: maroon;
     margin:none;
     padding:none;
 }
+
+.eight {
+    border-left: solid 5px maroon;
+    border-top: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    background: lightgray;
+}
+
+.five {
+    border-left: solid 5px maroon;
+    border-top: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.rightHeader {
+    color: Gray;
+    font-size:small;
+    font-weight: 800;
+    padding-top: 8px;
+    padding-left:5px;
+    margin:auto;
+}
+.rightHeader2{
+    padding-top: 8px;
+    padding-left:5px;
+    color:maroon;
+    font-size: larger;
+    font-weight: 700;
+    margin:auto;
+}
+.right-h2 {
+    color:maroon;
+    padding:10px;
+    font-size: xx-large;
+    font-weight:900;
+    margin: 0;
+}
+.rightHeader3{
+
+    color: gray;
+    padding-bottom:5px;
+    padding-left:5px;
+    font-size: small;
+    font-weight: 650px;
+    margin:0;
+}
+.rightHeader4{
+    color:maroon;
+    padding: 5px;
+    font-size:small;
+}
+.rightParagraph {
+    padding-left: 5px;
+}
+
+.footerTitle{
+    padding-left:50px;
+    border-bottom: solid 1px white;
+}
+
+#bottomFooter {
+    background: black;
+    text-decoration:none;
+    list-style-type:none;
+    padding:none;
+    margin-top:1px;
+}
+
+.ten a {
+    list-style-type:none;
+    text-decoration:none;
+    font-size:medium;
+    color:white;
+}
+
+.seven{
+    font-size: x-small;
+
+}
+
+.bottomFooterUL a {
+    font-size: small;
+}
+
+.bottomFooterUL a:hover {
+    color:maroon;
+}
+.footerUL a:hover {
+    color:white;
+    background:red;
+}
+
 
 /* Topography */
 @media only screen and (min-width: 600px){
@@ -159,21 +260,20 @@ li{
 }
 
 .four{
-    flex: 75%;
+    flex: 70%;
 }
+.nine,
 .five{
-    flex: 25% ;
+    flex: 30%;
 }
 
 .six{
     flex:1;
     color:white;
-
 }
 
-.seven{
-    flex:1;
-    color:white;
+.bottomFooterUL {
+    display:flex;
 }
 
 
