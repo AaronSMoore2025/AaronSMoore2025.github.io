@@ -21,6 +21,12 @@ body{
     color: black;
 }
 
+.two{
+    background{
+        background:lightgray;
+    }
+}
+
 /* Topography */
 
 .columns {
@@ -42,6 +48,10 @@ body{
 
 .one {
     flex: 1;
+}
+
+.two{
+    flex:2;
 }
 
 }
