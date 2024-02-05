@@ -2,7 +2,7 @@ body {
     background: #54A6EF;
 }
 
-#packagesHeader {
+#songRequestsHeader {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -13,7 +13,7 @@ body {
     padding: 0px;
 }
 
-.packagesH1{
+.songRequestsH1{
     margin: auto;
     border : solid 1px #4F407F;
     position:absolute;
@@ -46,33 +46,41 @@ body {
     padding-top: 10px;
 }
 
-.one {
+.myImg {
     margin-top: 75px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background: #D8D6CD;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .two {
-    margin: 20px;
     background: #D8D6CD;
+    border : solid 1px #4F407F;
 }
 
-.packP {
-    margin: 10px;
+.three {
+    background: #D8D6CD;
+    border : solid 1px #4F407F;
 }
-
 /* Topography */
 @media only screen and (min-width: 600px){
 
-    .columns{
-        display:flex;
-    }
-    #experienceHeader{
+    #songRequestsHeader{
         display: flex;
     }
     
     .topLinks {
         display: flex;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        display: flex;
+    }
+
+    .five {
+        flex:1;
     }
 }

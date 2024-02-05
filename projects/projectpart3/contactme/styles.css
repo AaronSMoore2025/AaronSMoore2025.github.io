@@ -2,7 +2,7 @@ body {
     background: #54A6EF;
 }
 
-#packagesHeader {
+#contactHeader {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -13,7 +13,13 @@ body {
     padding: 0px;
 }
 
-.packagesH1{
+.contactH1{
+    border : solid 1px #4F407F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topContactH1 {
     margin: auto;
     border : solid 1px #4F407F;
     position:absolute;
@@ -21,6 +27,10 @@ body {
     padding: 3px;
     margin-left: 2px;
     margin-top: 2px
+}
+
+.contactP {
+    text-align: center;
 }
 
 .li1 {
@@ -47,32 +57,47 @@ body {
 }
 
 .one {
+    background: #D8D6CD;
+    border : solid 1px #4F407F;
     margin-top: 75px;
-    margin-right: 20px;
     margin-left: 20px;
-    background: #D8D6CD;
+    margin-right: 50px;
 }
 
-.two {
-    margin: 20px;
-    background: #D8D6CD;
+.two{
+    margin-top: 75px;
 }
 
-.packP {
-    margin: 10px;
+.three{
+    background: #D8D6CD;
+    border : solid 1px #4F407F;
+}
+
+.five{
+    border : solid 1px #4F407F;
+    background: white;
 }
 
 /* Topography */
 @media only screen and (min-width: 600px){
 
-    .columns{
-        display:flex;
-    }
-    #experienceHeader{
+    #contactHeader{
         display: flex;
     }
     
     .topLinks {
         display: flex;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .one {
+        flex: 30%;
+    }
+
+    .two {
+        flex: 30%;
     }
 }

@@ -1,0 +1,27 @@
+body {
+    background: #54A6EF;
+}
+
+#main-header {
+    background: #D8D6CD;
+    text-align: center;
+}
+
+.img3,
+.img2,
+.img1 {
+    background:darkblue;
+}
+
+
+.one {
+    background: #D8D6CD;
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 600px){
+    .columns{
+        display: flex;
+    }
+}
