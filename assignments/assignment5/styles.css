@@ -35,7 +35,7 @@ body {
 }
 
 .three {
-    background: #D8D6CD;
+    background: forestgreen;
     text-align: center;
     margin: 10px;
 }
@@ -43,5 +43,17 @@ body {
 @media only screen and (min-width: 600px){
     .columns{
         display: flex;
+    }
+
+    .one {
+        flex: 30%;
+    }
+
+    .two {
+        flex: 30%;
+    }
+
+    .three {
+        flex: 30%;
     }
 }

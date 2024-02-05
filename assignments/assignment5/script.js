@@ -10,6 +10,14 @@ const rotateImg = () => {
     root.style.setProperty("--rotatePosition", angle + "deg");
 };
 
+const addImg = () => {
+    const playground = document.getElementById("playground");
+    const star = document.createElement("img");
+    star.src="images/star.png";
+    playground.append(star);
+};
+
 document.getElementById("button1").onclick = changeImg;
 document.getElementById("button2").onclick = rotateImg;
+document.getElementById("three").onclick = addImg;
 
