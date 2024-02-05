@@ -5,7 +5,9 @@ const changeImg = () => {
 
 const rotateImg = () => {
     const img2 = document.getElementById("img2");
-    rotateImg();
+    let root = document.querySelector(":root");
+    let angle = document.getElementById('inpAngle').value;
+    root.style.setProperty("--rotatePosition", angle + "deg");
 };
 
 document.getElementById("button1").onclick = changeImg;

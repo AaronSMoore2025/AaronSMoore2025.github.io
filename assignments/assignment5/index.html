@@ -12,17 +12,20 @@
             <div class="columns">
                 <section class="one">
                     <h1>Change Image</h1>
-                    <button id="button1"><img class="img1" src="https://place-hold.it" height="200" width="200"></button>
+                    <button id="button1"><img id="img1" src="https://place-hold.it" height="200" width="200"></button>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh leo, semper id bibendum eu, scelerisque eget nisi. Donec eget justo tristique, fringilla nunc a, pellentesque justo. In blandit odio sit amet quam molestie porttitor. Etiam nec odio et est fringilla ultricies. Vivamus vitae sodales orci.</p>
                 </section>
-                <section class="one">
+                <section class="two">
                     <h1>Slide Rotate</h1>
-                    <button id="button2"><img class="img2" src="https://place-hold.it" height="200" width="200"></button>
+                    <button id="button2"><img id="img2" src="https://place-hold.it" height="200" width="200"></button>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh leo, semper id bibendum eu, scelerisque eget nisi. Donec eget justo tristique, fringilla nunc a, pellentesque justo. In blandit odio sit amet quam molestie porttitor. Etiam nec odio et est fringilla ultricies. Vivamus vitae sodales orci.</p>
+                    <p>
+                        Angle<br><input type="range" min="-180" max="180" value="0" step="1" oninput="rotateImg()" id="inpAngle">
+                    </p>
                 </section>
-                <section class="one">
+                <section class="three">
                     <h1>Stars</h1>
-                    <button id="button3"><img class="img3" src="https://place-hold.it" height="200" width="200"></button>
+                    <button id="button3"><img id="img3" src="https://place-hold.it" height="200" width="200"></button>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh leo, semper id bibendum eu, scelerisque eget nisi. Donec eget justo tristique, fringilla nunc a, pellentesque justo. In blandit odio sit amet quam molestie porttitor. Etiam nec odio et est fringilla ultricies. Vivamus vitae sodales orci.</p>
                 </section>
             </div>

@@ -1,3 +1,7 @@
+:root {
+    --rotatePosition : 0deg;
+}
+
 body {
     background: #54A6EF;
 }
@@ -7,14 +11,30 @@ body {
     text-align: center;
 }
 
-.img3,
-.img2,
-.img1 {
+#img3,
+#img2,
+#img1 {
     background:darkblue;
 }
 
 
 .one {
+    background: #D8D6CD;
+    text-align: center;
+    margin: 10px;
+}
+
+.two {
+    background: #D8D6CD;
+    text-align: center;
+    margin: 10px;
+}
+
+#button2 {
+    transform: rotate(var(--rotatePosition));
+}
+
+.three {
     background: #D8D6CD;
     text-align: center;
     margin: 10px;
