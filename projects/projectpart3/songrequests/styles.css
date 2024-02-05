@@ -78,11 +78,11 @@ body {
 
     .one {
         display: flex;
-        margin-top: 75px;
-        text-align: center;
+
     }
 
     .five {
         flex:1;
+        margin-top: 75px;
     }
 }
