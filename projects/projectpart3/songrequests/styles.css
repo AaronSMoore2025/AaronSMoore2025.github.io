@@ -72,7 +72,7 @@ body {
         display: flex;
     }
 
-    .columns {
+    #columns {
         display: flex;
     }
 
