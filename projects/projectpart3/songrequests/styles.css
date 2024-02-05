@@ -78,6 +78,7 @@ body {
 
     .one {
         display: flex;
+        margin-top: 75px;
     }
 
     .five {
