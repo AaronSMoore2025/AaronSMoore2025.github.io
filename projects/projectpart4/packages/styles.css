@@ -1,0 +1,78 @@
+body {
+    background: #54A6EF;
+}
+
+#packagesHeader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: #D8D6CD;
+    margin: 0px;
+    padding: 0px;
+}
+
+.packagesH1{
+    margin: auto;
+    border : solid 1px #4F407F;
+    position:absolute;
+    left: 0;
+    padding: 3px;
+    margin-left: 2px;
+    margin-top: 2px
+}
+
+.li1 {
+    border : solid 1px #4F407F;
+    background : #9A8879;
+    list-style-type: none;
+    padding: 5px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.li1 a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.topLinks {
+    position:absolute;
+    right:0;
+    margin:auto;
+    padding-top: 10px;
+}
+
+.one {
+    margin-top: 75px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #D8D6CD;
+}
+
+.two {
+    margin: 20px;
+    background: #D8D6CD;
+}
+
+.packP {
+    margin: 10px;
+}
+
+/* Topography */
+@media only screen and (min-width: 600px){
+
+    .columns{
+        display:flex;
+    }
+    #experienceHeader{
+        display: flex;
+    }
+    
+    .topLinks {
+        display: flex;
+    }
+}

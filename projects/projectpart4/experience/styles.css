@@ -1,0 +1,92 @@
+body {
+    background: #54A6EF;
+}
+
+#experienceHeader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: #D8D6CD;
+    margin: 0px;
+    padding: 0px;
+}
+
+.experienceH1{
+    margin: auto;
+    border : solid 1px #4F407F;
+    position:absolute;
+    left: 0;
+    padding: 3px;
+    margin-left: 2px;
+    margin-top: 2px
+}
+
+.li1 {
+    border : solid 1px #4F407F;
+    background : #9A8879;
+    list-style-type: none;
+    padding: 5px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.li1 a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.topLinks {
+    position:absolute;
+    right:0;
+    margin:auto;
+    padding-top: 10px;
+}
+
+.one {
+    margin-top: 75px;
+    background: #D8D6CD;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.two {
+    margin-top: 50px;
+    background: #D8D6CD;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.experienceP {
+    margin: 25px;
+}
+
+.myImg {
+    padding-top: 20px;
+}
+/* Topography */
+@media only screen and (min-width: 600px){
+
+#experienceHeader{
+    display: flex;
+}
+
+.topLinks {
+    display: flex;
+}
+
+.columns {
+    display: flex;
+}
+
+.one {
+    flex: 1;
+}
+
+.two {
+    flex: 1;
+}
+}
