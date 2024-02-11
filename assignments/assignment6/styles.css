@@ -63,10 +63,16 @@ li {
     margin-right: auto;
 }
 
-#hamburger span:after {
+/* #nav-items span:after {
     content : "|";
     margin: 0 10px;
 
+}
+*/
+
+#nav-items li:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
 }
 
 .center {
@@ -77,8 +83,25 @@ li {
     padding: 20px;
 }
 
+.hide {
+    display: none;
+}
+
+#nav-items {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+
+
+
+
 @media screen and (min-width: 768px){
     #hamburger{
         display:flex;
+    }
+
+    #nav-items {
+        display: flex;
     }
 }
