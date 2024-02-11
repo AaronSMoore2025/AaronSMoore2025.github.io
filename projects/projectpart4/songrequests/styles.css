@@ -40,10 +40,12 @@ body {
 }
 
 .topLinks {
+    margin:auto;
     position:absolute;
     right:0;
-    margin:auto;
     padding-top: 10px;
+    padding-top: 0px;
+
 }
 
 .myImg {
@@ -61,8 +63,24 @@ body {
     background: #bcbcbc;
     border : solid 1px #0c343d;
 }
+
+.hide {
+    display: none;
+}
+
+#hamburger {
+    padding: 10px;
+}
+  
+  
+#hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
 /* Topography */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 768px){
 
     #songRequestsHeader{
         display: flex;
@@ -86,4 +104,47 @@ body {
         margin-top: 75px;
         
     }
+
+    .topLinks{
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+    }
+
+    #hamburger {
+        display: none;
+    }
 }
+
+@media only screen and (max-width:768px){
+    .main-h1{
+        display: flex;
+    }
+    
+    #hamburger {
+        margin-left: 90%;
+        margin-top: 0px;
+        position: absolute;
+        top: 0;
+    }
+
+    #nav-items{
+        flex:1;
+    }
+
+    .li1 {
+        background: #9bbdd4;
+        border: none;
+        margin: none;
+        padding: none;
+        width: 50%;
+    }
+
+    #topLinksId{
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        float:right;
+    }
+}
+

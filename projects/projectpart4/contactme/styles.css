@@ -13,8 +13,9 @@ body {
     padding: 0px;
 }
 
-.contactH1{
-    border : solid 1px #0c343d;
+.contactH1-top{
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
 }
 
 .topContactH1 {
@@ -51,7 +52,7 @@ body {
     position:absolute;
     right:0;
     margin:auto;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .one {
@@ -76,8 +77,24 @@ body {
     background: #bcbcbc;
 }
 
+.hide {
+    display: none;
+}
+
+#hamburger {
+    padding: 10px;
+}
+  
+  
+#hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 /* Topography */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 768px){
 
     #contactHeader{
         display: flex;
@@ -98,4 +115,47 @@ body {
     .two {
         flex: 30%;
     }
+
+    .topLinks{
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+    }
+
+    #hamburger {
+        display: none;
+    }
 }
+
+@media only screen and (max-width:768px){
+    .main-h1{
+        display: flex;
+    }
+    
+    #hamburger {
+        margin-left: 90%;
+        margin-top: 0px;
+        position: absolute;
+        top: 0;
+    }
+
+    #nav-items{
+        flex:1;
+    }
+
+    .li1 {
+        background: #9bbdd4;
+        border: none;
+        margin: none;
+        padding: none;
+        width: 50%;
+    }
+
+    #topLinksId{
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        float:right;
+    }
+}
+
