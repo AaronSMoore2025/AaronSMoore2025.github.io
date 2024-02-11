@@ -69,12 +69,6 @@ li {
 
 }
 */
-
-#nav-items li:not(:last-child)::after {
-    content: "|";
-    margin: 0 10px;
-}
-
 .center {
     justify-content: center;
 }
@@ -89,7 +83,7 @@ li {
 
 #nav-items {
     list-style-type: none;
-    margin: 0 auto;
+    display: none;
 }
 
 
@@ -103,5 +97,21 @@ li {
 
     #nav-items {
         display: flex;
+        justify-content: center;
+        padding-right: 40px;
     }
+
+    #nav-items li:not(:last-child)::after {
+        content: "|";
+        margin: 0 10px;
+    }
+
+    #arrowDown {
+        display:none;
+    }
+
+    #arrowUp {
+        display:none;
+    }
+    
 }

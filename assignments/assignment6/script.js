@@ -39,12 +39,17 @@ const pictureSlide = () => {
     }
 };
 
-document.getElementById("exercise2Input").oninput = pictureSlide;
-
-
+/*
 const toggleHamburger = () => {
     document.getElementById("main-nav1").classList.toggle("hide");
 };
+*/
+
+const toggleArrow = () => {
+    document.getElementById("nav-items").classList.toggle("hide");
+}
 
 document.getElementById("exercise1Input").oninput = pictureSwitch;
-document.getElementById("hamburger").onclick = toggleHamburger;
+document.getElementById("exercise2Input").oninput = pictureSlide;
+document.getElementById("arrow1").onclick = toggleArrow;
+document.getElementById("arrow2").onclick = toggleArrow;
