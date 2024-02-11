@@ -6,3 +6,79 @@ body {
     color: #0c343d;
     text-align : center;
 }
+
+#one {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #9da1aa;
+    padding: 10px;
+}
+
+#two {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #9da1aa;
+    margin-top: 20px;
+}
+
+#exercise1Image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#exercise2Image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#exercise1Input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exercise1UL {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    padding-left: 40%;
+}
+
+li {
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+#exercise2Input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hamburger span:after {
+    content : "|";
+    margin: 0 10px;
+
+}
+
+.center {
+    justify-content: center;
+}
+
+#hamburger {
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px){
+    #hamburger{
+        display:flex;
+    }
+}
