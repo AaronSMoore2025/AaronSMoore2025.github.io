@@ -46,10 +46,31 @@ const toggleHamburger = () => {
 */
 
 const toggleArrow = () => {
-    document.getElementById("nav-items").classList.toggle("hide");
-}
+    const value = document.getElementById("nav-items");
+    value.classList.toggle("hide");
+    
+    if(document.getElementById("arrowUp").classList.contains("hide")){
+        document.getElementById("arrowUp").classList.remove("hide");
+        document.getElementById("arrowDown").classList.add("hide");
+    }else {
+        document.getElementById("arrowUp").classList.add("hide");
+        document.getElementById("arrowDown").classList.remove("hide");
+    }
+};
+
+const switchExercise1 = () => {
+    document.getElementById("exercise1Div").classList.remove("hide");
+    document.getElementById("exercise2Div").classList.add("hide");
+};
+
+const switchExercise2 = () => {
+    document.getElementById("exercise2Div").classList.remove("hide");
+    document.getElementById("exercise1Div").classList.add("hide");
+};
 
 document.getElementById("exercise1Input").oninput = pictureSwitch;
 document.getElementById("exercise2Input").oninput = pictureSlide;
-document.getElementById("arrow1").onclick = toggleArrow;
-document.getElementById("arrow2").onclick = toggleArrow;
+document.getElementById("arrowUp").onclick = toggleArrow;
+document.getElementById("arrowDown").onclick = toggleArrow;
+document.getElementById("exercise1Button").onclick = switchExercise1;
+document.getElementById("exercise2Button").onclick = switchExercise2;
