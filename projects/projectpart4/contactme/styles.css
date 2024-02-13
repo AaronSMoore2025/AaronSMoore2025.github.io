@@ -157,6 +157,7 @@ body {
     .li1 {
         border: none;
         margin: none;
+        padding-left: auto;
     }
 
     #topLinksId{
@@ -164,6 +165,13 @@ body {
         margin-right: 10px;
         float:right;
     
+    }
+
+    .one {
+        margin-top: 85px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

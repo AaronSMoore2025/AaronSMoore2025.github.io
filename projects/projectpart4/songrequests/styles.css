@@ -156,8 +156,15 @@ body {
     }
 
     .one {
-        padding-left: 8%;
         margin-left: none;
+    }
+
+    .myImg {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        padding-bottom: 20px;
     }
 }
 
