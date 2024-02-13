@@ -36,6 +36,9 @@ img {
     background: #1a535c;
     margin: 0px;
     padding: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+
 }
 
 .main-h1{
@@ -190,6 +193,7 @@ img {
         position: absolute;
         right: 0;
         margin-top: 10px;
+        padding-left: 10px;
     }
 
     #hamburger {
@@ -200,6 +204,7 @@ img {
 }
 
 @media only screen and (max-width:768px){
+
     .columns1 {
         display: flex;
     }
@@ -227,6 +232,7 @@ img {
     #topLinksId{
         padding-top: 0px;
         margin-top: 0px;
+        padding-left: 0px;
     }
 
     .one {
