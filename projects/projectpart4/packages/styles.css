@@ -1,5 +1,14 @@
 body {
-    background: #ecf8fd;
+    background: #383838;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+    min-width: 425px;
 }
 
 #packagesHeader {
@@ -8,29 +17,31 @@ body {
     left: 0px;
     width: 100%;
     height: 50px;
-    background: #9bbdd4;
+    background: #1a535c;
     margin: 0px;
     padding: 0px;
 }
 
 .packagesH1{
     margin: auto;
-    border : solid 1px #0c343d;
-    position:absolute;
+    position: absolute;
     left: 0;
-    padding: 3px;
-    margin-left: 2px;
-    margin-top: 2px
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    color: #4ecdc4;
 }
 
 .li1 {
     border : solid 1px #0c343d;
-    background : #f3f6f4;
+    background : #4ecdc4;
     list-style-type: none;
     padding: 5px;
     margin: auto;
     padding-right: 20px;
     padding-left: 20px;
+    border-radius: 5px;
 }
 
 .li1 a {
@@ -47,15 +58,30 @@ body {
 }
 
 .one {
-    margin-top: 75px;
     margin-right: 20px;
     margin-left: 20px;
-    background: #bcbcbc;
+    background: #4ecdc4;
+    border-radius: 5px;
 }
 
 .two {
     margin: 20px;
-    background: #bcbcbc;
+    background: #4ecdc4;
+    border-radius: 5px;
+}
+
+.three {
+    margin-right: 20px;
+    margin-top: 75px;
+    margin-left: 20px;
+    background: #4ecdc4;
+    border-radius: 5px;
+}
+
+.five {
+    margin: 20px;
+    background: #4ecdc4;
+    border-radius: 5px;
 }
 
 .packP {
@@ -84,6 +110,15 @@ body {
     .columns{
         display:flex;
     }
+
+    .one {
+        margin-top: 75px;
+    }
+
+    .columns1 {
+        display: flex;
+    }
+
     #experienceHeader{
         display: flex;
     }
@@ -104,6 +139,9 @@ body {
 }
 
 @media only screen and (max-width:768px){
+    .columns1 {
+        display: flex;
+    }
     .main-h1{
         display: flex;
     }
@@ -120,18 +158,25 @@ body {
     }
 
     .li1 {
-        background: #9bbdd4;
         border: none;
         margin: none;
-        padding: none;
-        width: 50%;
     }
 
     #topLinksId{
-        padding-top: 0px;
+        padding-top: 50px;
         margin-top: 0px;
-        margin-right: 0px;
-        float:right;
+        margin-right: 10px;
+    }
+
+    .one {
+        margin-top: 85px;
+    }
+
+    .two {
+        margin-top: 70px;
+    }
+    .three {
+        margin-top: 20px;
     }
 }
 
