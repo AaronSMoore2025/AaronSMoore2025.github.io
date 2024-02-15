@@ -16,7 +16,7 @@ const bounceBall = (event) => {
         if(ball.marginTop == "300px"){
             clearInterval(updateCount);
         }
-    }, 100);
+    }, 500);
 
 };
 
