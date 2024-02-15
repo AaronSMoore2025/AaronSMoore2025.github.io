@@ -3,7 +3,7 @@ body {
 }
 
 #main-header {
-    color: #0c343d;
+    color: black;
     text-align : center;
 }
 
@@ -55,11 +55,41 @@ body {
     padding-right: 30px;
 }
 
+#nav-items {
+    list-style-type: none;
+}
+
 
 
 @media screen and (min-width: 768px){
     .columns {
         display: flex;
     }
+
+    #topLinks {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        padding-right: 40px;
+    }
+
+    #topLinks li:not(:last-child)::after {
+        content: "|";
+        margin: 0 10px;
+    }
+
+    #arrowDown {
+        display:none;
+    }
+
+    #arrowUp {
+        display:none;
+    }
+
+    .hide {
+        display: none;
+    }
 }
+
+
 

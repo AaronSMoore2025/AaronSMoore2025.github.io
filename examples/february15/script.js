@@ -61,10 +61,9 @@ const startStopCount = (event) => {
 const showDetails = (event) => {
     console.log(e.target.getAttribute("rel"));
 }
-/*
+
 document.getElementById("btn-loop-nums").onclick = numLoop;
 document.getElementById("btn-count").onclick = startStopCount;
-*/
 document.querySelectorAll("#toys li").forEach((li)=>{
     li.onclick = showDetails;
 });
