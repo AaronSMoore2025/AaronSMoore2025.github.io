@@ -1,0 +1,46 @@
+body {
+    background: #ecf8fd;
+}
+
+#main-header {
+    color: #0c343d;
+    text-align : center;
+}
+
+#exercise1Div {
+    background: #9da1aa;
+    display: block;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 400px;
+}
+
+.one {
+    background: #0c343d;
+    margin-top: 10px;
+    margin-right: 45px;
+    margin-left: 45px;
+    padding-bottom: 350px;
+}
+
+.hide {
+    display: none;
+}
+
+#topLinks li:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
+}
+
+#exercise1Div {
+    text-align: center;
+}
+
+#exercise2Div {
+    text-align: center;
+}
+
+#soccerBall {
+    margin-top: 10px;
+}
+
