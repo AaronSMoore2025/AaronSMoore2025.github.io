@@ -2,15 +2,18 @@ body {
     background: #ecf8fd;
 }
 
+.hide {
+    display: none;
+}
+
 #main-header {
-    color: black;
+    color: #0c343d;
     text-align : center;
 }
 
 #exercise2Div,
 #exercise1Div {
     background: #9da1aa;
-    display: block;
     margin-right: 100px;
     margin-left: 100px;
     padding-bottom: 400px;
@@ -23,16 +26,7 @@ body {
     margin-top: 10px;
     margin-right: 45px;
     margin-left: 45px;
-    padding-bottom: 350px;
-}
-
-.hide {
-    display: none;
-}
-
-#topLinks li:not(:last-child)::after {
-    content: "|";
-    margin: 0 10px;
+    min-height: 460px;
 }
 
 #exercise1Div {
@@ -44,7 +38,7 @@ body {
 }
 
 #soccerBall {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 #poses {
@@ -55,14 +49,28 @@ body {
     padding-right: 30px;
 }
 
-#nav-items {
+#topLinks {
     list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#description1,
+#description2,
+#description3,
+#description4,
+#description5,
+#description6,
+#description7,
+#description8 {
+    padding-top:75px;
+    padding-left: 50px;
 }
 
 
 
 @media screen and (min-width: 768px){
-    .columns {
+    .li {
         display: flex;
     }
 
@@ -86,9 +94,6 @@ body {
         display:none;
     }
 
-    .hide {
-        display: none;
-    }
 }
 
 

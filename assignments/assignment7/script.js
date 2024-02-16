@@ -22,49 +22,75 @@ const switchExercise2 = () => {
 };
 
 
-/*
+
 const bounceBall = (event) => {
+    const ball = document.getElementById("soccerBall");
     if(event.target.innerHTML.toLowerCase() == "start"){
         event.target.innerHTML = "Stop";
+        console.log("were in");
+
+
+            counter = 0;
+            console.log("were in");
+
+                increaseCount = setInterval(()=>{
+                    counter++;
+                    ball.style.marginTop = counter + "px";
+        
+                    if(ball.style.marginTop == "300px"){
+                        clearInterval(increaseCount);
+    
+                        decreaseCount = setInterval(()=>{
+                            counter--;
+                            ball.style.marginTop = counter + "px";
+                
+                            if(ball.style.marginTop == "0px"){
+                                clearInterval(decreaseCount);
+                            }
+                        }, 10);
+                    }
+    
+                }, 10);
+            
+
     } else {
         event.target.innerHTML = "Start";
-        clearInterval(updateCount);
+        clearInterval(increaseCount);
     }
-
-    const ball = document.getElementById("soccerBall");
-    counter = 0;
-
-    const updateCount (()=>{
-        counter++;
-        ball.style.marginTop + "10px";
-
-        if(ball.marginTop == "300px"){
-            clearInterval(updateCount);
-        }
-    }, 500);
-
 };
-*/
-
 
 const showDetails = (event) => {
-    
     /*
-    description.innerHTML = "hey how ya doin";
-    (event.target.getAttribute("rel"))";
-    */
+   let description = event.target.getAttribute("rel").value;
+   description.innerHTML = "description";
+   */
+    console.log("were in")
+    let description = event.target.getAttribute("rel");
+    if(event.target.getAttribute("rel") == "Side Plank"){
+        document.getElementById("description1").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "Downward Dog"){
+        console.log("the ballerina");
+        document.getElementById("description2").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "The Ballerina"){
+        document.getElementById("description3").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "Hamstring Stretch"){
+        document.getElementById("description4").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "The Hula Hoop"){
+        document.getElementById("description5").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "The Ooooo"){
+        document.getElementById("description6").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "The Hmmmmm"){
+        document.getElementById("description7").innerHTML = description;
+    }else if(event.target.getAttribute("rel") == "The please don't go"){
+        document.getElementById("description8").innerHTML = description;
+    }
     
-   let description = event.target.getAttribute("rel)").value;
-   descriptionP.innerHTML = description;
 };
 
+document.getElementById("button-start").onclick = bounceBall;
 
-/*
-document.getElementyById("exercise1Button").onclick = bounceBall;
-*/
 document.querySelectorAll("#poses li").forEach((li)=>{
-    li.onclick = showDetails
-    
+    li.onclick = showDetails;
 });
 
 document.getElementById("arrowUp").onclick = toggleArrow;

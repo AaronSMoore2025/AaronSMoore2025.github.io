@@ -46,6 +46,8 @@ body{
     margin: auto;
 }
 
+.three,
+.four,
 .one {
     flex: 10%;
 }
