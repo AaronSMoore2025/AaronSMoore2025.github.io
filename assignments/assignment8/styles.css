@@ -1,0 +1,18 @@
+body {
+    background: #ecf8fd;
+}
+
+#main-header {
+    color: #0c343d;
+    text-align : center;
+}
+
+.hide{
+    display:none;
+}
+
+.one {
+    background: #9da1aa;
+    text-align: center;
+    padding: 30px;
+}

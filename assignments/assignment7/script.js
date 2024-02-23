@@ -64,7 +64,6 @@ const showDetails = (event) => {
    let description = event.target.getAttribute("rel").value;
    description.innerHTML = "description";
    */
-    console.log("were in")
     let description = event.target.getAttribute("rel");
     if(event.target.getAttribute("rel") == "Side Plank"){
         document.getElementById("description1").innerHTML = description;
