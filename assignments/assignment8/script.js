@@ -11,6 +11,7 @@ const switcher = () => {
     nextImage.classList.remove("hide");
 };
 
+/*
 $associatveArray = array(
     "images/garden.jpg" => 
     "images.golden.jpg" =>
@@ -18,5 +19,5 @@ $associatveArray = array(
     "small-house.jpg" =>
     "snow.jpg" =>
 )
-
+*/
 setInterval(switcher, 2000);
