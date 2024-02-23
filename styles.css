@@ -54,8 +54,7 @@ body{
 
 .five,
 .two{
-    flex:2;
+    flex:1;
 }
-
 }
 
