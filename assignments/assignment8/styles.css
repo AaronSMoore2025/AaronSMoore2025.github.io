@@ -5,6 +5,8 @@ body {
 #main-header {
     color: #0c343d;
     text-align : center;
+    padding-left: none;
+    margin-left: none;
 }
 
 .hide{
