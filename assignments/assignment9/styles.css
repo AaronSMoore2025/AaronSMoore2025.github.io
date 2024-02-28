@@ -18,6 +18,18 @@ body {
     padding-bottom: 20px;
 }
 
+.tree {
+    background: #9da1aa;
+}
+
+.hidden {
+    display: none;
+}
+
+.h3 {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px){
     .columns{
         display: flex;

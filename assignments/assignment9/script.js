@@ -31,11 +31,11 @@ class tree {
 
         const moreSection = document.createElement("section");
         moreSection.classList.add("hidden", "more");
-        moreSection.append(this.paragraph("Type", this.type));
-        moreSection.append(this.paragraph("Growth Rate", this.growthRate));
-        moreSection.append(this.paragraph("Life Span", this.lifeSpan));
-        moreSection.append(this.paragraph("Habitat", this.habitat));
-        moreSection.append(this.image("images/" + this.picture, this.picture));
+        moreSection.append(this.paragraph("Type : ", this.type));
+        moreSection.append(this.paragraph("Growth Rate : ", this.growthRate));
+        moreSection.append(this.paragraph("Life Span : ", this.lifeSpan));
+        moreSection.append(this.paragraph("Habitat : ", this.habitat));
+        moreSection.append(this.paragraph("images/" + this.picture, this.picture));
         columns.append(moreSection);
 
         return section;
@@ -52,6 +52,12 @@ class tree {
 
         section.classList.toggle("hidden");
     };
+
+    paragraph(title, info) {
+        const p = document.createElement("p");
+        p.innerHTML = `<strong>${title}:</strong> ${info}`;
+        return p;
+    }
 
 };
 
