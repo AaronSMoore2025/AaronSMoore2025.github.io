@@ -1,0 +1,25 @@
+body {
+    background: #ecf8fd;
+}
+
+#main-header {
+    color: #0c343d;
+    text-align : center;
+}
+
+#main-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .columns{
+        display: flex;
+    }
+}
