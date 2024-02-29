@@ -9,9 +9,6 @@ class tree {
     }
 
     get item() {
-        const btn = document.getElementById("myBtn");
-        btn.onclick = this.expandContract
-
         const section = document.createElement("section");
         section.classList.add("tree");
 
@@ -29,6 +26,7 @@ class tree {
         image.src = "images/" + this.picture;
         imageSection.append(image);
 
+        /*
         const moreSection = document.createElement("section");
         moreSection.classList.add("hidden", "more");
         moreSection.append(this.paragraph("Type : ", this.type));
@@ -37,10 +35,44 @@ class tree {
         moreSection.append(this.paragraph("Habitat : ", this.habitat));
         moreSection.append(this.paragraph("images/" + this.picture, this.picture));
         columns.append(moreSection);
+        */
 
+        section.onclick = (e) => {
+            console.log("hi");
+            document.getElementById("dialog").style.display = "block";
+
+            const details = document.getElementById("dialog-details");
+            details.innerHTML = "";
+            const header3 = document.createElement("h3");
+            const paragraph = document.createElement("p");
+            const paragraph1 = document.createElement('p');
+            const paragraph2 = document.createElement('p');
+            const paragraph3 = document.createElement('p');
+            const myImage =document.createElement("img");
+
+            myImage.innerHTML = "images/" + this.picture;
+            details.append(myImage)
+            h3.innerHTML = this.treeName;
+            details.append(h3);
+            paragraph.innerHTML = "Tree Family: " + this.type;
+            details.append(paragraph);
+            paragraph1.innerHTML = "Growth Rate: " + this.growthRate;
+            details.append(paragraph1);
+            paragraph2.innerHTML = "Life Span: " + this.lifeSpan;
+            details.append(paragraph2);
+            paragraph3.innerHTML = "Habitat: " + this.habitat;
+            details.append(paragraph3);
+            
+            
+        }
+
+        document.getElementById("dialog-close").onclick = () => {
+            document.getElementById("dialog").style.display = "none";
+        };
         return section;
     };
 
+    /*
     expandContract(e) {
         const section = e.currentTarget.closest("section.tree-list").querySelector(".more");
 
@@ -52,12 +84,14 @@ class tree {
 
         section.classList.toggle("hidden");
     };
-
+    */
+    /*
     paragraph(title, info) {
         const p = document.createElement("p");
         p.innerHTML = `<strong>${title}:</strong> ${info}`;
         return p;
     }
+    */
 
 };
 

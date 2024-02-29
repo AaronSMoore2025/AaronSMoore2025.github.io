@@ -3,46 +3,32 @@
     <head>
         <title>Assignment 8</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
         <header id="main-header">
-            <h1>Assignment 10</h1>
+            <h1>Assignment 8</h1>
             <h3>Classes</h3>
         </header>
 
-        <button id="myBtn" class="hidden">
-            <section id="tree-list"></section>
-        </button>
-        <!--
-        <div class="columns">
-            <nav id="main-nav">
-                <button id="modal1">
-                    <section class="one">
-                        <h2>Red Wood</h2>
-                        <img src="images/redWood.png" height="200" width="200">
+
+        <section id="tree-list"></section>
+
+
+        <div id="dialog" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span id='dialog-close' class="w3-button w3-display-topright">&times;</span>
+                    <section id="dialog-content" class="columns">
+                        <section>
+                            <!--<img src="">-->
+                        </section>
+                        <section id="dialog-details"></section>
                     </section>
-                </button>
-                <button id="modal2">
-                    <section class="one">
-                        <h2>Oak Tree</h2>
-                        <img src="images/oak.png" height="200" width="200">
-                    </section>
-                </button>
-                <button id="modal3">
-                    <section class="one">
-                        <h2>Birch Tree</h2>
-                        <img src="images/birch.png" height="200" width="200">
-                    </section>
-                </button>
-                <button id="modal4">
-                    <section class="one">
-                        <h2>Pine Tree</h2>
-                        <img src="images/pine.png" height="200" width="200">
-                    </section>
-                </button>
-            </nav>
+                </div>
+            </div>
         </div>
-        -->
+
         <script src="script.js"></script>
     </body>
 </html>
