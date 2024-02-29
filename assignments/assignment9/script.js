@@ -42,16 +42,17 @@ class tree {
             document.getElementById("dialog").style.display = "block";
 
             const details = document.getElementById("dialog-details");
+            const imageDetails = document.getElementById("dialog-image");
             details.innerHTML = "";
             const header3 = document.createElement("h3");
             const paragraph = document.createElement("p");
             const paragraph1 = document.createElement('p');
             const paragraph2 = document.createElement('p');
             const paragraph3 = document.createElement('p');
-            const myImage =document.createElement("img");
+            const myImage = document.createElement("img");
 
             myImage.innerHTML = "images/" + this.picture;
-            details.append(myImage)
+            imageDetails.append(myImage)
             h3.innerHTML = this.treeName;
             details.append(h3);
             paragraph.innerHTML = "Tree Family: " + this.type;
@@ -71,27 +72,6 @@ class tree {
         };
         return section;
     };
-
-    /*
-    expandContract(e) {
-        const section = e.currentTarget.closest("section.tree-list").querySelector(".more");
-
-        if (section.classList.contains("hidden")) {
-            btn.style.display = 'block';
-        } else {
-            btn.style.display =  'none';
-        }
-
-        section.classList.toggle("hidden");
-    };
-    */
-    /*
-    paragraph(title, info) {
-        const p = document.createElement("p");
-        p.innerHTML = `<strong>${title}:</strong> ${info}`;
-        return p;
-    }
-    */
 
 };
 
