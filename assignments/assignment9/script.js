@@ -51,7 +51,7 @@ class tree {
             const paragraph3 = document.createElement('p');
             const myImage = document.createElement("img");
 
-            myImage.innerHTML = "images/" + this.picture;
+            myImage.src = "images/" + this.picture;
             imageDetails.append(myImage);
             h3.innerHTML = this.treeName;
             details.append(h3);
