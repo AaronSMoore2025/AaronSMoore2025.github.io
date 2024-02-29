@@ -45,6 +45,8 @@ section {
 
 
 
+
+
 @media screen and (min-width: 768px){
     .columns{
         display: flex;
@@ -57,6 +59,7 @@ section {
     #dialog-content {
         display: flex;
     }
+
     
     
 }
