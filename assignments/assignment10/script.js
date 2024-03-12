@@ -53,10 +53,12 @@ const getHouseSection = (house) => {
 
 const getFloorPlans = (plans) => {
     const floorSection = document.createElement("section");
-    const interiorFloorSection = document.createElement("section");
+    //const interiorFloorSection = document.createElement("section");
     floorSection.id = "floorSection";
-    interiorFloorSection.id = "interiorFloorSection";
+    //interiorFloorSection.id = "interiorFloorSection";
     plans.forEach((plan) => {
+        const interiorFloorSection = document.createElement("section");
+        interiorFloorSection.id = "interiorFloorSection";
         const h1 = document.createElement("h1");
         h1.innerHTML = plan.name;
         interiorFloorSection.append(h1);

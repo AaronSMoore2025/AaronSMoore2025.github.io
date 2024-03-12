@@ -7,7 +7,7 @@ body {
     text-align : center;
 }
 
-section{
+#sectionOne{
     background: #9da1aa;
 }
 
@@ -15,14 +15,19 @@ img{
     padding: 20px;
 }
 
-#interiorFloorSection {
-    text-align: center;
+#floorSection {
     margin: 10px;
 }
 
+#interiorFloorSection {
+    text-align: center;
+    
+}
+
 #floorImage {
-    width: 40%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 100px;
 }
 
 
