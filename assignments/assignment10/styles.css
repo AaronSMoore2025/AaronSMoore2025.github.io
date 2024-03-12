@@ -15,9 +15,26 @@ img{
     padding: 20px;
 }
 
-
-/*
-@media screen and (min-width: 768px){
-    
+#interiorFloorSection {
+    text-align: center;
+    margin: 10px;
 }
-*/
+
+#floorImage {
+    width: 40%;
+    height: 40%;
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+    #sectionOne {
+        display: flex;
+    }
+
+    #floorSection {
+        display: flex;
+    }
+}
