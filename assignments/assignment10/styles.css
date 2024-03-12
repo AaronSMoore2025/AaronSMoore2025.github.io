@@ -1,0 +1,24 @@
+body {
+    background: #ecf8fd;
+}
+
+#main-header {
+    color: #0c343d;
+    text-align : center;
+}
+
+section{
+    background: #9da1aa;
+}
+
+img{
+    padding: 20px;
+}
+
+
+
+@media screen and (min-width: 768px){
+    section{
+        
+    }
+}
