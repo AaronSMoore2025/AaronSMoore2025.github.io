@@ -22,7 +22,6 @@ const getHouseSection = (house) => {
     section.id = "sectionOne";
     const interiorSection = document.createElement("section");
     const image = document.createElement("img");
-    //image.id = "houseImage";
     image.src = "https://portiaportia.github.io/json/images/house-plans/" + house.main_image;
     section.append(image);
 
