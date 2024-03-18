@@ -1,0 +1,23 @@
+[
+    {
+        "image": "Saving_Up.png",
+        "name": "Saving Up",
+        "artist": "Dom Dolla",
+        "genre": "Dance EDM"
+
+    },
+
+    {
+        "image": "Murder_Dancefloor.png",
+        "name": "Murder On the Dancefloor",
+        "artist": "Siphie Ellis-Bextor",
+        "genre": "pop"
+    },
+
+    {
+        "image": "Shiver.png",
+        "name": "Siver",
+        "artist": "John Summit",
+        "genre": "Dance EDM"
+    }
+]
