@@ -1,18 +1,18 @@
 const getSongs = async() => {
-    const src = "requests.json";
+    const url = "file:///Users/user/Desktop/AaronSMoore2025.github.io/projects/projectpart5/songrequests/requests.json";
 
     try {
-        const response = await fetch(src);
+        const response = await fetch(url);
         return response.json();
     } catch(error){
         console.log(error);
     }
 };
 
-const showSong = async() => {
-    const houses = await getSongs();
-    houses.forEach((house) => {
-        document.getElementById("songSection").append(getSongSection(house));
+const showSongs = async() => {
+    const songs = await getSongs();
+    songs.forEach((song) => {
+        document.getElementById("songSection").append(getSongSection(song));
     });
 };
 
@@ -49,4 +49,4 @@ const getSongSection = (song) => {
     return section;
 };
 
-showSong();
+showSongs();
