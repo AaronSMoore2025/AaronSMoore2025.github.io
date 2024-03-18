@@ -12,7 +12,7 @@ const getSongs = async() => {
 const showSong = async() => {
     const houses = await getSongs();
     houses.forEach((house) => {
-        document.getElementById("songSection").append(geSongSection(house));
+        document.getElementById("songSection").append(getSongSection(house));
     });
 };
 
