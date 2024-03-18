@@ -1,5 +1,5 @@
 const getSongs = async() => {
-    const url = "file:///Users/user/Desktop/AaronSMoore2025.github.io/projects/projectpart5/songrequests/requests.json";
+    const url = "requestsong.json";
 
     try {
         const response = await fetch(url);
