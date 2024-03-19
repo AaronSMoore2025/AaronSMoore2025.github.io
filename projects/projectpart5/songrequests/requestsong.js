@@ -1,5 +1,5 @@
 const getSongs = async() => {
-    const url = "requestsong.json";
+    const url = "requests.json";
 
     try {
         const response = await fetch(url);
@@ -25,26 +25,28 @@ const getSongSection = (song) => {
     titleSection.id = "titleSection";
     const informationSection = document.createElement("section");
     informationSection.id = "informationSection";
+    
 
-    const songImage = document.createElement("img");
-    songImage.innerHTML = song.image;
-    image.append(songImage);
+    //const songImage = document.createElement("img");
+    image.src = "images/" + song.image;
+    
 
     const h1 = document.createElement("h1");
     h1.innerHTML = song.name;
     titleSection.append(h1);
+    informationSection.append(titleSection);
 
     const artist = document.createElement("p");
-    artist.innerHTML = song.artist;
+    artist.innerHTML = "Artist: " + song.artist;
     informationSection.append(artist);
 
-    const genre = documnet.createElemement("p");
-    genre.innerHTML = song.genre;
+    const genre = document.createElement("p");
+    genre.innerHTML = "Genre: " + song.genre;
     informationSection.append(genre);
 
     section.append(image);
-    section.append(titleSection);
     section.append(informationSection);
+
 
     return section;
 };

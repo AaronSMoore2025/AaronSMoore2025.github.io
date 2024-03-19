@@ -84,8 +84,35 @@ body {
     background-color: black;
     margin: 6px 0;
 }
+
+#image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#sectionOne {
+    background: #4ecdc4;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    margin-bottom: -50px;
+}
+
+#titleSection {
+    font-size:xx-large;
+}
+
+#informationSection {
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
 /* Topography */
 @media only screen and (min-width: 768px){
+
+    #sectionOne {
+        display:flex;
+    }
 
     #songRequestsHeader{
         display: flex;
@@ -122,6 +149,10 @@ body {
 
     #hamburger {
         display: none;
+    }
+
+    #image {
+        display:flex;
     }
 }
 
@@ -166,5 +197,7 @@ body {
         margin-top: 85px;
         padding-bottom: 20px;
     }
+
+    
 }
 
