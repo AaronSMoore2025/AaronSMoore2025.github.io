@@ -86,8 +86,8 @@ body {
 }
 
 #image {
-    max-width: 200px;
-    max-height: 200px;
+    width:150px;
+    height:150px;
 }
 
 #sectionOne {
@@ -99,7 +99,10 @@ body {
 }
 
 #titleSection {
-    font-size:xx-large;
+    font-size:x-large;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid black;
 }
 
 #informationSection {
@@ -107,9 +110,38 @@ body {
     padding-top: 0px;
     margin-top: 0px;
 }
+
+h1{
+    padding: 0px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#formSection {
+    background: #4ecdc4;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.formHeader {
+    border-bottom: solid 1px black;
+}
 /* Topography */
 @media only screen and (min-width: 768px){
 
+    #columns {
+        display: flex;
+    }
+
+    #formSection{
+        flex: 50%;
+    }
+
+    #songSection {
+        flex: 50%
+    }
     #sectionOne {
         display:flex;
     }
